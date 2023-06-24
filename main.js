@@ -30,8 +30,8 @@ let personalMovieDB = {
     genres: [],
     private: false
 };
-let filmName = prompt("Один из последних просмотренных фильмов?", "");
-let filmGrade = prompt("На сколько оцените его?", "");
+let filmName = prompt("Один из последних просмотренных фильмов?", ""),
+    filmGrade = prompt("На сколько оцените его?", "");
 
 personalMovieDB["movies"][filmName] = filmGrade;
 
